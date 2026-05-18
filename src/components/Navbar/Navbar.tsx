@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { User, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 interface NavbarProps {
