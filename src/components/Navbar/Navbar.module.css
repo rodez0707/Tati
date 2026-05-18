@@ -125,10 +125,31 @@
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .navRight {
+    order: 2;
   }
 
   .navLinks {
+    display: flex;
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    gap: 1.5rem;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .navLinks::-webkit-scrollbar {
     display: none;
   }
 }

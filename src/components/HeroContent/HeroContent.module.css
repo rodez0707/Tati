@@ -102,13 +102,21 @@
 
 @media (max-width: 768px) {
   .heroContentWrapper {
-    left: 3rem;
-    bottom: 25%;
-    max-width: 85%;
+    left: 5%;
+    top: 20%;
+    bottom: auto;
+    max-width: 90%;
+    align-items: center;
+    text-align: center;
   }
 
   .title {
-    font-size: clamp(2rem, 8vw, 3rem);
+    font-size: clamp(2rem, 8vw, 2.5rem);
+  }
+
+  .description {
+    font-size: 0.85rem;
+    line-height: 1.6;
   }
 }
 

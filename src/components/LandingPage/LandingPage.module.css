@@ -438,10 +438,25 @@
 /* Responsive adjustment for Mobile */
 @media (max-width: 768px) {
   .narrationController {
-    left: 2rem;
-    right: 2rem;
-    top: 5.5rem;
+    left: 1rem;
+    right: 1rem;
+    top: 6.5rem;
     width: auto;
+  }
+
+  .splashContent {
+    width: 90%;
+    padding: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .splashTitle {
+    font-size: 2.2rem;
+  }
+
+  .splashSubtitle {
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
   }
 }
 
@@ -578,6 +593,7 @@
   margin: 0;
   background: linear-gradient(135deg, #ffffff 40%, rgba(255, 255, 255, 0.4) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
